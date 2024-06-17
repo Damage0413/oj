@@ -101,3 +101,5 @@ knife4j:
         api-rule: package
         api-rule-resources:
           - com.oj.oj.controller
+codesandbox:
+  type: example
