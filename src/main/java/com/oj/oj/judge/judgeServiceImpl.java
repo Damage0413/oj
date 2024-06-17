@@ -5,6 +5,7 @@ import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Service;
 
 import com.oj.oj.common.ErrorCode;
 import com.oj.oj.exception.BusinessException;
@@ -24,6 +25,7 @@ import com.oj.oj.service.QuestionSubmitService;
 
 import cn.hutool.json.JSONUtil;
 
+@Service
 public class judgeServiceImpl implements judgeService {
 
     @Autowired
